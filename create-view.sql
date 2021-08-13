@@ -1,0 +1,13 @@
+-- CREATE VIEW rock AS
+-- SELECT name FROM track
+-- WHERE genre_id IN (
+--   SELECT genre_id FROM genre
+--   WHERE name = 'Rock'
+--   )
+  
+-- CREATE VIEW classical_count AS
+-- SELECT COUNT(name) FROM track
+-- WHERE genre_id IN (
+--   SELECT genre_id FROM genre
+--   WHERE name = 'Classical'
+--   )
